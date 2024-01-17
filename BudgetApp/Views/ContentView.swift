@@ -91,7 +91,7 @@ struct ContentView: View {
                 nameIsFocused = false
             }
                 Section{
-                    Text("\($salary.salary)" as String)
+                    Text("\(salaryFinal)" as String)
                     Text("Total cost this month is \(costFinal, specifier:"%.2f")")
                     Text("Budget Remaining is \(remainingBudget, specifier: "%.2f")")
                 }
